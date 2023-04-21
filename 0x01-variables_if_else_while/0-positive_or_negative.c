@@ -3,8 +3,9 @@
 #include <stdio.h>
 
 /*
- * main - assigns a ransom number to int n everytime
- * it executes, and prints it
+ * main - main block
+ * Description: Assigns a random number to int n everytime
+ * It executes, and prints it
  * Return: 0
  */
 int main(void)
