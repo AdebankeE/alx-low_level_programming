@@ -15,4 +15,6 @@ while (c >= 'a')
 	c--;
 }
 putchar('\n');
+
+return (0);
 }
