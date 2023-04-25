@@ -3,7 +3,7 @@
 /**
  * _isalpha - test whether a character is from the English alphabet
  * @c: character to be checked.
- * Retrurn: 1 if the character is an English character.
+ * Return: 1 if the character is an English character.
  * 0 if the character is not an English character.
  */
 int _isalpha(int c)
