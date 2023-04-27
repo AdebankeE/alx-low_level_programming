@@ -1,19 +1,25 @@
 #include "main.h"
 
 /**
- * print_line - draws a straight line (n) characters long
- * @n: the number of the underscore to print.
- **/
+  * print_line - Draws a straight line according to parameter
+  * @n: The number of lines to draw
+  *
+  * Return: empty
+  */
 void print_line(int n)
 {
-int i;
+	int x;
 
-	for (i = 0; i < n; i++)
+	if (n <= 0)
 	{
-	if (n > 0)
+		_putchar('\n');
+	}
+	else
 	{
-	_putchar('-');
+		for (x = 0; x < n; x++)
+		{
+			_putchar(95);
+		}
+
+		_putchar('\n');
 	}
-	}
-_putchar('\n');
-}
