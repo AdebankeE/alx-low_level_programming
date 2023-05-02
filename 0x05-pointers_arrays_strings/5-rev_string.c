@@ -23,6 +23,7 @@ char x;
 x = *end;
 *end = *begin;
 *begin = x;
+begin++;
 end--;
 }
 end[l + 1] = '\0';
