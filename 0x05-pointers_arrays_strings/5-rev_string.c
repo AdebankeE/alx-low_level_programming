@@ -15,9 +15,9 @@ for (a = 0; s[a] != '\0' && s[a + 1] != '\0'; a++)
 {
 end++;
 }
-len = a + 1;
+l = a + 1;
 begin = s;
-for (a = 0; a < len / 2; a++)
+for (a = 0; a < l / 2; a++)
 {
 char x;
 x = *end;
@@ -25,5 +25,5 @@ x = *end;
 *begin = x;
 end--;
 }
-end[len + 1] = '\0';
+end[l + 1] = '\0';
 }
